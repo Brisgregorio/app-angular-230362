@@ -1,0 +1,32 @@
+/* Estilos base para los enlaces */
+.btn-footer {
+    background: #FFFCDD;
+    color: #805841;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid #F5A2A2;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-footer:hover {
+    background: #FFD8D8;
+    color: #805841;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-footer {
+        width: 100%;  /* Para que ocupen el ancho completo en móvil */
+        display: block;
+    }
+}

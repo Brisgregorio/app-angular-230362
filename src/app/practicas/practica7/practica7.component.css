@@ -1,0 +1,23 @@
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 3px solid #F5A2A2;  /* Borde alineado con el diseño */
+    color: #805841; /* Texto en amarillo pastel para contraste */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 0px #805841; /* Sombra estilo retro */
+}
+
+button:hover {
+    background: #F5A2A2; 
+    border-color: #96CDFF; 
+    color: #805841; /* Texto en marrón oscuro para mayor contraste */
+    transform: translateY(-2px); /* Efecto de elevación al hacer hover */
+    box-shadow: 4px 4px 0px #805841; /* Más sombra para destacar */
+}
+
+button:active {
+    transform: translateY(1px); /* Efecto de presión al hacer clic */
+    box-shadow: 2px 2px 0px #805841;
+}
